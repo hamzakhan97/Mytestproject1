@@ -12,7 +12,7 @@ Login(WebDriver driver){
 
     {
         this.driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        this.driver.findElement(By.name("txtPassword")).sendKeys(("admin123"));
+        this.driver.findElement(By.name("txtPassword")).sendKeys(("admin1234"));
  this.driver.findElement(By.className("button")).click();
     }
     public void Logout() throws InterruptedException {
